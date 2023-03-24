@@ -1,42 +1,69 @@
+* {
+  font-family: Iosevka, sans-serif;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.tela-login {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.tela-login > * {
+  margin: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.tela-login button {
+  width: 50%;
+  height: 2em;
+  font-size: 18px;
 }
 
-.card {
-  padding: 2em;
+.campo {
+  width: 100%
 }
 
-.read-the-docs {
-  color: #888;
+.campo input {
+  border: solid black 1px;
+  border-radius: 10px;
+  height: 2em;
+  padding: 5px;
+}
+
+.campo-redes-sociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.campo-redes-sociais .circulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.campo-redes-sociais .circulo img {
+  width: 80%;
+  height: auto;
 }

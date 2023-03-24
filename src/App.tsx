@@ -1,34 +1,42 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import instagram from './assets/instagram.svg'
+import facebook from './assets/facebook.svg'
+import twitter from './assets/twitter.svg'
 import './App.css'
 
+function TelaLogin() {
+  return (
+    <div className="tela-login">
+      <h1>Tela de Login</h1>
+      <div className="campo-usuario campo">
+        <label htmlFor="input-usuario">Usuário</label>
+        <input name="input-usuario" type="text"/>
+      </div>
+      <div className="campo-senha campo">
+        <label htmlFor="input-senha">Senha</label>
+        <input name="input-senha" type="password"/>
+      </div>
+      <span><a href="">Esqueceu sua senha?</a></span>
+      <button>Próximo</button>
+      <div className="campo-redes-sociais">
+        <div className="circulo">
+          <img src={ instagram } alt="Instagram" />
+        </div>
+        <div className="circulo">
+          <img src={ twitter } alt="Twitter" />
+        </div>
+        <div className="circulo">
+          <img src={ facebook } alt="Facebook" />
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    <TelaLogin></TelaLogin>
   )
 }
 

@@ -1,32 +1,14 @@
-import { useState } from 'react'
-import TelaLogin from './tela_de_login'
-import './App.css'
-
-function NavBar() {
-  return (
-    <div className="Navbar">
-      <img className="logo" alt="Logo" />
-      <div className="navbar-clickable">
-
-      </div>
-    </div>
-  )
-}
-
-function TelaInicio() {
-  return (
-    <>
-      <NavBar></NavBar>
-    </>
-  )
-}
-
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import { TelaLogin } from './tela_de_login';
 
 function App() {
-
   return (
-    <TelaLogin></TelaLogin>
-  )
+    <>
+      <TelaLogin></TelaLogin>
+    </>
+      );
 }
 
-export default App
+export default App;

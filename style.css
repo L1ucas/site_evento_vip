@@ -1,0 +1,21 @@
+.tela_login {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_login {
+    width: 50%;
+}
+
+.campo_input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.campo_input input {
+    width: 100%;
+}

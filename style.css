@@ -1,21 +1,15 @@
-.tela_login {
+.tela_login{
     display: flex;
-    width: 100%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .form_login {
+    background-color: #470000;
+    color: white;
+    border-radius: 20px;
+    padding: 2em;
+    margin: 1em;
+
     width: 50%;
-}
-
-.campo_input {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 70%;
-}
-
-.campo_input input {
-    width: 100%;
 }

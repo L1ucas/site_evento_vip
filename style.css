@@ -1,15 +1,61 @@
-.tela_login{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.form_login {
-    background-color: #470000;
-    color: white;
-    border-radius: 20px;
-    padding: 2em;
-    margin: 1em;
+body {
+    background: linear-gradient(270deg, #225C86 0%, rgba(34, 92, 134, 0) 106.23%);
+}
 
-    width: 50%;
+.area-formulario {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.label {
+    color: white;
+}
+
+.box-form input{
+    background: #225C86;
+}
+
+.area-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-button button {
+    background: #225C86;
+    border: 3px solid #FAFEFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+
+.area-links {
+   display: flex;
+   padding-top: 30px;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+.links {
+    width: 50px;
+    height: 50px;
+    
 }

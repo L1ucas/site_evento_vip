@@ -7,6 +7,12 @@
 body {
     background: linear-gradient(270deg, #225C86 0%, rgba(34, 92, 134, 0) 106.23%);
 }
+.form_login {
+    background-image: linear-gradient(to right, #225c86, rgba(0, 97, 168, 0) 105.3%, rgba(0, 70, 120, 0) 105.3%);
+    color: white;
+    border-radius: 20px;
+    padding: 2em;
+    margin: 1em;
 
 .area-formulario {
     height: 100vh;

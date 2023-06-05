@@ -29,7 +29,7 @@
     <div id="back" class="col-sm-3">
       <label id="back2" for="">Sexualidade:</label>
       <select class="form-select input" aria-label="Default select example">
-        <option selected></option>
+        <option selected>...</option>
         <option value="1">Masculino</option>
         <option value="2">Feminino</option>
         <option value="3">Outros</option>
@@ -72,7 +72,7 @@
   <div class="cnt2">
     <h1 id="cnt">Formulário de aluguel</h1>
   </div><br>
-  <div class="row mb-3">
+  <div class="row mb-3" style="color: black;">
     <div class="col-sm-1">
     </div>
     <div id="back" class="col-sm-3">
@@ -86,7 +86,7 @@
     <div id="back" class="col-sm-3">
       <label id="back" for="">Forma de pagamento:</label>
       <select class="form-select input" aria-label="Default select example">
-        <option selected></option>
+        <option selected>...</option>
         <option value="1">Boleto Bancário</option>
         <option value="2">Espécie</option>
         <option value="3">Pix</option>
@@ -124,7 +124,7 @@
         </div>
       </div>
       <button type="button" class="btn btn-primary">Não</button>
-      <a href="./index.html" class="btn btn-dark">Voltar</a>
+      <a href="./index.php" class="btn btn-dark">Voltar</a>
     </div>
   </div>
 

@@ -3,18 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="edge=IE">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-    <title>Login</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="bootstrap.min.css" rel="stylesheet"/>
+     <title>Login</title>
 </head>
+
+<style>
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, #225C86 26.04%, rgba(34, 92, 134, 0) 100%);
+    background-repeat: no-repeat;
+    font-family: 'Alice';
+}
+</style>
 
 <body>
     <div class="tela_login">
         <form action="" class="form_login">
             <div class="container">
+
+        <h1>Login</h1>
                 <div class="row">
 
                     <div class="col">
